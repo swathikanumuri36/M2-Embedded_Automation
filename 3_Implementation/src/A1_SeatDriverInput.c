@@ -1,6 +1,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
-#include "A1_SeatDriverInput.h"
+#include "inc/A1_SeatDriverInput.h"
 
 void ports(){
     DDRB|=(1<<PB0);
