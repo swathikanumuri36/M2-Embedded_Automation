@@ -1,5 +1,32 @@
 
 # Output
+## Heating System is OFF
+
+* System OFF: Power supply is turned OFF
+* Driver absent Heater OFF: SEAT SWITCH OFF and HEAT SWITCH OFF
+
+### System OFF  
+
+
+| ![diagram1](https://user-images.githubusercontent.com/94305490/144387091-29186dac-e62e-49d2-b0cf-0a436748cfdd.png) | 
+
+
+### Driver absent Heater OFF 
+
+
+| ![diagram2](https://user-images.githubusercontent.com/94305490/144387378-8361aeaa-bd47-4d3b-b39d-fd264c2a1863.png) |
+
+* Driver absent Heater ON: SEAT SWITCH OFF and HEAT SWITCH ON
+* Driver present Heater OFF: SEAT SWITCH ON and HEAT SWITCH OFF
+
+### Driver absent Heater ON 
+
+![diagram3](https://user-images.githubusercontent.com/94305490/144388536-64330bc2-c8a0-459f-b26d-4289f7f931b6.png)
+
+### Driver Present Heater OFF 
+
+![daigram4](https://user-images.githubusercontent.com/94305490/144388606-93008234-5569-4820-85b9-c11a97c6f9d3.png)
+
 ## Heating System is ON with four levels
 * Heater ON Level 1: 
   * SEAT SWITCH ON, HEAT SWITCH ON, HEATER LED ON
