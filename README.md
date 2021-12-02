@@ -2,7 +2,7 @@
 
 [![Code Quality score](https://api.codiga.io/project/30263/score/svg)
 
-
+[![Code quality score](https://api.codiga.io/project/30276/score/svg)
 
 
 
