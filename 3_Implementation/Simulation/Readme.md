@@ -14,5 +14,6 @@
 | System OFF | Driver absent Heater OFF |
 | --- | --- |
 
-| ![ All off]![circuit](https://user-images.githubusercontent.com/94305490/144299123-c3373403-ebfe-46a9-a513-9caa222c3bf8.png) |![No driver no input] ![diagram2](https://user-images.githubusercontent.com/94305490/144381382-3b0fbe99-258c-4575-bb8b-d6878c9dc518.png) |
+| ![All OFF] ![diagram1](https://user-images.githubusercontent.com/94305490/144384413-d0c0159c-065a-4869-a86d-27c043fd8b03.png)| ![No driver No input] ![diagram2](https://user-images.githubusercontent.com/94305490/144384543-071bba04-32c2-4e67-8bf2-dab76f44d7ae.png)|
+
 
