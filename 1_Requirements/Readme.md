@@ -3,6 +3,19 @@
 ## Introduction
 Automobiles used in the cold regions must have seat heater along with the air-conditioning system.
 This ensures more comfort to the driver by adjusting the environment temperature close to nominal body temperature.
+The system is used to warm the seates of automobiles when used in cold freezing winters. 
+#### Input and connections
+* Seat switch (D0)
+* Heat switch (D1)
+* Heat adjust potentiometer (C0)
+
+#### Output
+* Heater LED (B0)
+* 4 heat-level indicator (B2 & B3)
+* Oscilloscope (B1)
+
+Pins B2 and B3 are connected to a 4 heat-level indicator through a logic circuit to show the increasing heat levels.
+
 ### Advantages
 * Comfortable driving experience.
 * Faster heating of seats and reduced dependancy of AC heater.
