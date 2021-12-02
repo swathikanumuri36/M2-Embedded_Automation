@@ -1,56 +1,30 @@
 
-PROJ_NAME = Heated and climate controlled seat
+PROJ_NAME = Project
+
+BUILD_DIR = Build
+
+# All Source code files
 SRC = main.c\
-src/A1_SeatDriverInput.c\
-src/A2_input.c\
-src/A3_PWMgen.c
-TEST_SRC = src/regist.c\
-src/existreg.c\
+src/A1_SeatDriverInput.c\ src/A2_input.c\ src/A3_PWMgen.c\
 
-  
+# All header file paths
+INC = -I inc
 
-#To check if the OS is windows or linux and set the executable file extension and delete command accordingly
-ifdef OS
-   RM = del /q
+# Find out the OS and configure the variables accordingly
+ifdef OS	# All configurations for Windwos OS
+# Correct the path based on OS
    FixPath = $(subst /,\,$1)
-   EXEC = exe
-else
+# Name of the compiler used
+   CC = avr-gcc.exe
+# Name of the elf to hex file converter used
+   AVR_OBJ_CPY = avr-objcopy.exe
+else #All configurations for Linux OS
    ifeq ($(shell uname), Linux)
-      RM = rm -rf
-      FixPath = $1
-	  EXEC = out
+# Correct the path based on OS
+      FixPath = $1				
+# Name of the compiler used
+	  CC = avr-gcc
+# Name of the elf to hex file converter used
+	  AVR_OBJ_CPY = avr-objcopy 
    endif
 endif
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
-INC	= -Iinc\
--Iunity
-
-all:$(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
-
-
-run: all
-	./$(call FixPath,$(PROJ_NAME).$(EXEC))
-
-# Build and run of Unit test
-
-build_test:
-	gcc $(TEST_SRC) $(INC) $(INCLUDE_LIBS) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
-
-run_test: build_test
-	./$(call FixPath,$(PROJ_NAME).$(EXEC))
-
-analyze: test memcheck staticcheck coverage sanitize_check
-
-staticcheck:
-	cppcheck --enable=all -iunity .
-
-memcheck:
-	valgrind ./$(TEST_OUTPUT)
-
-sanitize_check:
-	gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) 
-	./$(TEST_OUTPUT)
-
-clean:
-	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
