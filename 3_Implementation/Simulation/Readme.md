@@ -22,6 +22,8 @@
 
 | ![diagram2](https://user-images.githubusercontent.com/94305490/144387378-8361aeaa-bd47-4d3b-b39d-fd264c2a1863.png) |
 
+* Driver absent Heater ON: SEAT SWITCH OFF and HEAT SWITCH ON
+* Driver present Heater OFF: SEAT SWITCH ON and HEAT SWITCH OFF
 
 
 
