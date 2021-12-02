@@ -59,7 +59,7 @@ This ensures more comfort to the driver by adjusting the environment temperature
 
 # Implementation
 ## Introduction
-This folder conatins all the coding files as well as the resources and testing files neede for proper execution of program
+This folder conatins all the coding files as well as the resources and neede for proper execution of program
 ## Instructions to execute
 1. Clone my repository
 2. Go to 3_Implementation folder
@@ -67,6 +67,7 @@ This folder conatins all the coding files as well as the resources and testing f
 4. Run "make run" command in terminal for main code execution
 5. Run "make run_test" command in terminal for test code execution
 | Folder | Description |
+*/
 | --- | --- |
 | inc | Contains header files |
 | src | Contains additional source file for compilation |
