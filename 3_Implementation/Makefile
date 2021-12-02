@@ -4,9 +4,10 @@ PROJ_NAME = Project
 BUILD_DIR = Build
 
 # All Source code files
-SRC = main.c A1_SeatDriverInput.c A2_input.c A3_PWMgen.c
+SRC = main.c
+src/A1_SeatDriverInput.c src/A2_input.c src/A3_PWMgen.c
 # All header file paths
-INC = A1_SeatDriverInput.h A2_input.h A3_PWMgen.h
+INC =-I inc
 
 # Find out the OS and configure the variables accordingly
 ifdef OS	# All configurations for Windwos OS
