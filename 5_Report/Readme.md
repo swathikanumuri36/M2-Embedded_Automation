@@ -66,8 +66,8 @@ This folder conatins all the coding files as well as the resources and neede for
 3. Make sure your system meets all software and hardware requirements
 4. Run "make run" command in terminal for main code execution
 5. Run "make run_test" command in terminal for test code execution
+
 | Folder | Description |
-<br>
 | --- | --- |
 | inc | Contains header files |
 | src | Contains additional source file for compilation |
