@@ -4,7 +4,7 @@ PROJ_NAME = Project
 BUILD_DIR = Build
 
 # All Source code files
-SRC = main.c\
+SRC =main.c
 src/A1_SeatDriverInput.c src/A2_input.c src/A3_PWMgen.c
 
 # All header file paths
