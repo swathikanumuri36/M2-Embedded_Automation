@@ -11,7 +11,8 @@
 
 | System OFF | Driver absent Heater OFF |
 | --- | --- |
-| ![All OFF](https://user-images.githubusercontent.com/89698000/133662792-fe8e1f45-2954-4486-a500-0cc4f10d4333.png) | ![No driver No input](https://user-images.githubusercontent.com/89698000/133663006-4e5041ae-a9c5-4d59-b3f9-cd845d8ac41b.png) |
+| ![All OFF]![diagram1](https://user-images.githubusercontent.com/94305490/144380557-a705a79f-b4b3-4b1f-87c2-14b35989bc7a.png)
+ | ![No driver No input](https://user-images.githubusercontent.com/89698000/133663006-4e5041ae-a9c5-4d59-b3f9-cd845d8ac41b.png) |
 
 * Driver absent Heater ON: SEAT SWITCH OFF and HEAT SWITCH ON
 * Driver present Heater OFF: SEAT SWITCH ON and HEAT SWITCH OFF
