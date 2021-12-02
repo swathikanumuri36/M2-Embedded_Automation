@@ -1,5 +1,5 @@
 
-# Simulations
+# Output
 ## Heating System is OFF
 
 * System OFF: Power supply is turned OFF
