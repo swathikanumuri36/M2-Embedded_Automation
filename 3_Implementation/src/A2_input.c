@@ -1,4 +1,4 @@
-#include "A2_input.h"
+#include "inc/A2_input.h"
 
 uint16_t chk_value(void){
       startADC();
