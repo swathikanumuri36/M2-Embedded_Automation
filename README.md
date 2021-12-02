@@ -1,6 +1,5 @@
 # M2-Embedded_Heated_and_Climate_Controlled_seat
 
-[![Code Quality score](https://api.codiga.io/project/30263/score/svg)
 
 [![Code quality score](https://api.codiga.io/project/30276/score/svg)
 
