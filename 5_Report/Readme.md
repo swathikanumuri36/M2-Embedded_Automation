@@ -32,3 +32,16 @@ This ensures more comfort to the driver by adjusting the environment temperature
 ### How
 * Heating system within the seat.
 
+## High Level Requirements
+| ID | Description | Status (Implemented/Future) |
+| --- | --- | --- |
+| HR01 | Supply PWM signals based on the required temperature | Implemented |
+| HR02 | Should only be activated when the driver is seated | Implemented |
+| HR03 | Should be able to turn OFF manually | Implemented |
+
+## Low Level Requirement
+| ID | Description | Status (Implemented/Future) |
+| --- | --- | --- |
+| LR01 (HR01) | Specify the duty cycles based on the temperature | Implemented |
+| LR02 (HR02) | Reliability of the switch connected to the seat | Implemented |
+| LR03 (HR03) | Switch to manually turn ON and turn OFF the seat heater | Implemented |
