@@ -45,3 +45,6 @@ This ensures more comfort to the driver by adjusting the environment temperature
 | LR01 (HR01) | Specify the duty cycles based on the temperature | Implemented |
 | LR02 (HR02) | Reliability of the switch connected to the seat | Implemented |
 | LR03 (HR03) | Switch to manually turn ON and turn OFF the seat heater | Implemented |
+
+
+![blockdiagram](https://user-images.githubusercontent.com/94305490/144428287-206f36a5-e923-439b-b4ac-25fb56b34736.PNG)
